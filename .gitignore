@@ -1,3 +1,4 @@
+.*swp
 presentation.pdf
 presentation.aux
 presentation.bbl
@@ -7,3 +8,9 @@ presentation.nav
 presentation.out
 presentation.snm
 presentation.toc
+naospecsJoints.eps
+presentation.dvi
+presentation.fdb_latexmk
+presentation.fls
+robocuplogo.eps
+

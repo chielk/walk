@@ -1,5 +1,6 @@
 \documentclass{beamer}
 \usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
 \mode<presentation>
 {
@@ -105,15 +106,6 @@ NaoTH framework for Nao by Berlin United \cite{naothdescription}
 	\end{itemize}
 \end{frame}
 
-\subsection{Related Work}
-\begin{frame}{Related Work}
-    \begin{itemize}
-		\item Finite difference methods \cite{macalpineusing, meijer2012getting}
-		\item Local search
-        \item Genetic Algorithms \cite{meijer2012getting}
-	\end{itemize}
-\end{frame}
-
 \subsection{Genetic Algorithm}
 \begin{frame}{Genetic Algorithm}
 	Similar to biology: Survival of the fittest.
@@ -147,6 +139,24 @@ NaoTH framework for Nao by Berlin United \cite{naothdescription}
     \item Penalize falling down.    
     \item Fitness based on walking distance.
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+	\begin{itemize}
+		\item Gui for SimSpark (official simulator) or real world evaluation
+	\end{itemize}
+	\includegraphics[width=\textwidth]{GUI}
+\end{frame}
+
+\section{Results}
+\begin{frame}{Results}
+	\begin{center}
+		\includegraphics[width=.5\textwidth]{relevant_avg}
+	\end{center}
+\begin{itemize}
+	\item Fitness increases for first 10-15 generations in simulation
+	\item Success in simulation does not translate to real world
+\end{itemize}
 \end{frame}
 
 \section{Future work}
